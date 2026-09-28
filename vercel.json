@@ -1,0 +1,62 @@
+{
+  "redirects": [
+    {
+      "source": "/cookies.html",
+      "destination": "/cookies",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/privacidad.html",
+      "destination": "/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal.html",
+      "destination": "/aviso-legal",
+      "permanent": true
+    },
+    {
+      "source": "/terms.html",
+      "destination": "/terminos",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terminos",
+      "permanent": true
+    },
+    {
+      "source": "/terminos.html",
+      "destination": "/terminos",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/cookies",
+      "destination": "/cookies.html"
+    },
+    {
+      "source": "/privacidad",
+      "destination": "/privacidad.html"
+    },
+    {
+      "source": "/aviso-legal",
+      "destination": "/aviso-legal.html"
+    },
+    {
+      "source": "/terminos",
+      "destination": "/terminos.html"
+    }
+  ]
+}
