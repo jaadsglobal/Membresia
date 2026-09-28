@@ -39,6 +39,11 @@
       "source": "/terminos.html",
       "destination": "/terminos",
       "permanent": true
+    },
+    {
+      "source": "/gracias.html",
+      "destination": "/gracias",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -57,6 +62,10 @@
     {
       "source": "/terminos",
       "destination": "/terminos.html"
+    },
+    {
+      "source": "/gracias",
+      "destination": "/gracias.html"
     }
   ]
 }

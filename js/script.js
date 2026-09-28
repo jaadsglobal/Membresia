@@ -244,11 +244,7 @@ leadForm?.addEventListener("submit", async (event) => {
       throw new Error("No se pudo enviar la solicitud.");
     }
 
-    if (formMessage) {
-      formMessage.textContent = "Solicitud recibida. Te contactaré para asesorarte sobre la membresía y próximos pasos.";
-    }
-
-    leadForm.reset();
+    window.location.href = "/gracias";
   } catch (error) {
     if (formMessage) {
       formMessage.textContent = "No se pudo enviar ahora. Escríbeme a guillermomp.info@gmail.com.";
