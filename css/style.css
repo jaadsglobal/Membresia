@@ -1808,9 +1808,18 @@ button {
 .thanks-page {
   display: grid;
   place-items: center;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  color: var(--color-white);
+  background:
+    radial-gradient(circle at 76% 34%, rgba(216, 182, 106, 0.18), transparent 32%),
+    linear-gradient(135deg, #03101f 0%, #07172b 56%, #030913 100%);
 }
 
 .thanks-wrap {
+  position: relative;
+  z-index: 2;
   padding-block: 42px;
 }
 
