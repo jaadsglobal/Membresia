@@ -2774,3 +2774,9 @@ body {
   font-size: 0.82rem;
   font-weight: 700;
 }
+
+@media (min-width: 768px) {
+  .testimonial-card > p:not(.testimonial-role) {
+    min-height: 96px;
+  }
+}
