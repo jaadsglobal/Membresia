@@ -618,6 +618,15 @@ button {
     linear-gradient(180deg, #FFFFFF, #F4F0E8);
 }
 
+.travel-programs .section-heading h2 {
+  color: var(--color-navy-deep);
+}
+
+.travel-programs .section-heading p:not(.eyebrow) {
+  color: #4f5864;
+  font-weight: 500;
+}
+
 .travel-program-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -645,7 +654,7 @@ button {
 
 .program-kicker {
   margin: 0 0 10px;
-  color: var(--color-gold);
+  color: #A9822E;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.14em;
@@ -654,14 +663,17 @@ button {
 
 .travel-program-card h3 {
   margin: 0 0 12px;
-  color: var(--color-navy);
+  color: var(--color-navy-deep);
   font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  font-weight: 800;
   line-height: 1.12;
 }
 
 .travel-program-card p:not(.program-kicker) {
   margin: 0;
-  color: var(--color-muted);
+  color: #4f5864;
+  font-weight: 500;
+  line-height: 1.68;
 }
 
 @media (min-width: 900px) {
