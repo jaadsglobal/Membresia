@@ -1535,6 +1535,9 @@ button {
 
 /* === TESTIMONIALS === */
 .testimonial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 26px;
   background:
     linear-gradient(180deg, rgba(244, 230, 197, 0.18), transparent 48%),
@@ -1557,7 +1560,7 @@ button {
 }
 
 .testimonial-card h3 {
-  margin-top: 12px;
+  margin-top: auto;
 }
 
 /* === FAQ === */
@@ -2774,8 +2777,6 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
-  .testimonial-card > p:not(.testimonial-role) {
-    min-height: 96px;
-  }
+.testimonial-card > p:not(.testimonial-role) {
+  margin-bottom: 18px;
 }
