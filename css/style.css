@@ -2433,10 +2433,13 @@ button {
     padding: 70px 0;
   }
 
-  .steps-grid,
   .testimonial-grid,
   .affiliate-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .plans-grid {
