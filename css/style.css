@@ -313,8 +313,7 @@ button {
   overflow: hidden;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(11, 15, 20, 0.54), rgba(7, 17, 31, 0.10) 58%, rgba(11, 15, 20, 0.26)),
-    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=72") center/cover no-repeat;
+    linear-gradient(90deg, rgba(11, 15, 20, 0.54), rgba(7, 17, 31, 0.10) 58%, rgba(11, 15, 20, 0.26));
 }
 
 .hero-scene::before {

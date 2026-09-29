@@ -20,12 +20,17 @@
 
   <link rel="icon" href="assets/favicon.ico">
   <link rel="preconnect" href="https://assets.mixkit.co" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;w=1800&amp;q=72" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-  <link rel="stylesheet" href="css/style.css?v=20260928-elena-original">
+  <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"></noscript>
+  <link rel="stylesheet" href="css/style.css?v=20260929-performance">
 
   <script type="application/ld+json">
   {
@@ -167,7 +172,7 @@
 
         <div class="travel-program-grid">
           <article class="travel-program-card" data-aos="fade-right">
-            <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=900&amp;q=72" width="900" height="620" loading="lazy" decoding="async" alt="Resort premium con piscina tranquila">
+            <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=900&amp;q=72" width="900" height="620" loading="lazy" decoding="async" fetchpriority="low" alt="Resort premium con piscina tranquila">
             <div>
               <p class="program-kicker">Getaways</p>
               <h3>Escapadas en resorts usando puntos de viaje.</h3>
@@ -176,7 +181,7 @@
           </article>
 
           <article class="travel-program-card" data-aos="fade-left" data-aos-delay="100">
-            <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&amp;fit=crop&amp;w=900&amp;q=72" width="900" height="620" loading="lazy" decoding="async" alt="Canal de Venecia como destino cultural de viaje">
+            <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&amp;fit=crop&amp;w=900&amp;q=72" width="900" height="620" loading="lazy" decoding="async" fetchpriority="low" alt="Canal de Venecia como destino cultural de viaje">
             <div>
               <p class="program-kicker">World Tours</p>
               <h3>Tours organizados para descubrir destinos con experiencias incluidas.</h3>
@@ -197,27 +202,27 @@
         </div>
         <div class="destination-grid">
           <figure class="destination-card" data-aos="fade-up">
-            <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" alt="Villas sobre el agua en Maldivas">
+            <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" fetchpriority="low" alt="Villas sobre el agua en Maldivas">
             <figcaption>Maldivas</figcaption>
           </figure>
           <figure class="destination-card" data-aos="fade-up" data-aos-delay="120">
-            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" alt="Skyline de Dubái al atardecer">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" fetchpriority="low" alt="Skyline de Dubái al atardecer">
             <figcaption>Dubái</figcaption>
           </figure>
           <figure class="destination-card" data-aos="fade-up" data-aos-delay="240">
-            <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" alt="Vista de Santorini con arquitectura blanca">
+            <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" fetchpriority="low" alt="Vista de Santorini con arquitectura blanca">
             <figcaption>Santorini</figcaption>
           </figure>
           <figure class="destination-card" data-aos="fade-up">
-            <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" alt="Nueva York con rascacielos iluminados">
+            <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" fetchpriority="low" alt="Nueva York con rascacielos iluminados">
             <figcaption>Nueva York</figcaption>
           </figure>
           <figure class="destination-card" data-aos="fade-up" data-aos-delay="120">
-            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" alt="Crucero de lujo navegando en aguas azules">
+            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" fetchpriority="low" alt="Crucero de lujo navegando en aguas azules">
             <figcaption>Crucero de lujo</figcaption>
           </figure>
           <figure class="destination-card" data-aos="fade-up" data-aos-delay="240">
-            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" alt="Piscina y resort cinco estrellas">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 1024px) 31vw, (min-width: 480px) 48vw, calc(100vw - 40px)" width="720" height="520" loading="lazy" decoding="async" fetchpriority="low" alt="Piscina y resort cinco estrellas">
             <figcaption>Resort 5 estrellas</figcaption>
           </figure>
         </div>
@@ -227,30 +232,30 @@
     <!-- CINTA DE FOTOS -->
     <section class="photo-ribbon" aria-label="Inspiración de destinos">
       <div class="photo-track">
-        <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Dubái de noche">
-        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="París junto al Sena">
-        <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Tokio iluminado">
-        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Carretera de viaje junto al mar">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Paisaje natural para una escapada">
-        <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Londres al atardecer">
-        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Viajeros caminando en destino">
-        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Bahía con barcos tradicionales">
-        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Resort cinco estrellas con piscina">
-        <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Villas premium sobre el agua">
-        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Hotel boutique de lujo">
-        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="Piscina tranquila en hotel premium">
-        <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
-        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" alt="">
+        <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Dubái de noche">
+        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="París junto al Sena">
+        <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Tokio iluminado">
+        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Carretera de viaje junto al mar">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Paisaje natural para una escapada">
+        <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Londres al atardecer">
+        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Viajeros caminando en destino">
+        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Bahía con barcos tradicionales">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Resort cinco estrellas con piscina">
+        <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Villas premium sobre el agua">
+        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Hotel boutique de lujo">
+        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="Piscina tranquila en hotel premium">
+        <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
+        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&amp;fit=crop&amp;w=320&amp;q=64" width="260" height="170" loading="lazy" decoding="async" fetchpriority="low" alt="">
       </div>
     </section>
 
@@ -295,7 +300,7 @@
           </div>
         </div>
         <div class="about-me-photo" data-aos="fade-left">
-          <img src="assets/asesor-guillermo-marquez.png?v=20260924-clean-cutout-v2" width="823" height="1344" loading="lazy" decoding="async" alt="Asesor de Guillermo Márquez">
+          <img src="assets/asesor-guillermo-marquez.png?v=20260924-clean-cutout-v2" width="823" height="1344" loading="lazy" decoding="async" fetchpriority="low" alt="Asesor de Guillermo Márquez">
         </div>
       </div>
     </section>
@@ -319,21 +324,21 @@
         </div>
         <div class="testimonial-grid">
           <article class="testimonial-card" data-aos="fade-up">
-            <img src="assets/miembro-club-travorium.jpeg" width="152" height="152" loading="lazy" decoding="async" alt="Miembro del Club Travorium">
+            <img src="assets/miembro-club-travorium.jpeg" width="152" height="152" loading="lazy" decoding="async" fetchpriority="low" alt="Miembro del Club Travorium">
             <div class="stars" aria-label="Cinco estrellas">★★★★★</div>
             <p>“Formar parte del Club Travorium me ha dado otra forma de mirar los viajes: más acompañada, con mejores opciones y con la tranquilidad de saber qué estoy contratando.”</p>
             <h3>Rocío Estrella</h3>
             <p class="testimonial-role">Miembro del Club Travorium</p>
           </article>
           <article class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=180&amp;q=72" width="152" height="152" loading="lazy" decoding="async" alt="Retrato de Camilo Echeverry">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=180&amp;q=72" width="152" height="152" loading="lazy" decoding="async" fetchpriority="low" alt="Retrato de Camilo Echeverry">
             <div class="stars" aria-label="Cinco estrellas">★★★★★</div>
             <p>“Entré al Club Travorium buscando opciones más claras para viajar. Lo que más valoré fue tener la información ordenada y poder decidir sin sentir presión.”</p>
             <h3>Camilo Echeverry</h3>
             <p class="testimonial-role">Miembro del Club Travorium</p>
           </article>
           <article class="testimonial-card" data-aos="fade-up" data-aos-delay="160">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=160&amp;q=72" width="152" height="152" loading="lazy" decoding="async" alt="Retrato de Elena Costa">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=160&amp;q=72" width="152" height="152" loading="lazy" decoding="async" fetchpriority="low" alt="Retrato de Elena Costa">
             <div class="stars" aria-label="Cinco estrellas">★★★★★</div>
             <p>“Me gustó entender primero cómo funcionaba la membresía y después revisar destinos con calma. Sentí que tenía más control antes de elegir el viaje.”</p>
             <h3>Elena Costa</h3>
@@ -461,7 +466,7 @@
             <a class="btn btn-gold" href="#registro">Solicitar acceso</a>
           </div>
         </div>
-        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 768px) 48vw, calc(100vw - 40px)" width="900" height="620" loading="lazy" decoding="async" alt="Grupo de viajeros disfrutando juntos de una experiencia premium" data-aos="fade-left">
+        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=720&amp;q=72" srcset="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=480&amp;q=68 480w, https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=720&amp;q=72 720w, https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=960&amp;q=74 960w" sizes="(min-width: 768px) 48vw, calc(100vw - 40px)" width="900" height="620" loading="lazy" decoding="async" fetchpriority="low" alt="Grupo de viajeros disfrutando juntos de una experiencia premium" data-aos="fade-left">
       </div>
     </section>
 
