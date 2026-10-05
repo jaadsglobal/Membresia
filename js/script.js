@@ -18,6 +18,40 @@ const checkoutAddonIcon = document.getElementById("checkoutAddonIcon");
 const pricingSection = document.getElementById("planes");
 const registrationSection = document.getElementById("registro");
 const heroVideos = Array.from(document.querySelectorAll(".hero-video"));
+const internalSectionLinks = document.querySelectorAll('a[href^="#"]');
+
+const scrollToSection = (sectionId) => {
+  const target = document.getElementById(sectionId);
+
+  if (!target) {
+    return;
+  }
+
+  const headerHeight = header?.offsetHeight || 0;
+  const targetTop = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+  window.scrollTo({
+    top: Math.max(targetTop, 0),
+    behavior: "smooth"
+  });
+};
+
+if (window.location.hash) {
+  window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+}
+
+internalSectionLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const sectionId = link.getAttribute("href")?.slice(1);
+
+    if (!sectionId) {
+      return;
+    }
+
+    event.preventDefault();
+    scrollToSection(sectionId);
+  });
+});
 
 if (window.AOS) {
   AOS.init({
