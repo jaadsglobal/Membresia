@@ -1,0 +1,20 @@
+# GuillermoTravel
+
+GuillermoTravel is the public website for Guillermo Marquez, an independent information and advisory contact for people interested in understanding a private travel membership related to Travorium.
+
+Canonical site: https://guillermotravel.com
+
+Primary language: Spanish.
+
+Main public pages:
+- https://guillermotravel.com/
+- https://guillermotravel.com/aviso-legal
+- https://guillermotravel.com/privacidad
+- https://guillermotravel.com/cookies
+- https://guillermotravel.com/terminos
+
+The site explains membership access, benefits, conditions, frequently asked questions, legal information, privacy, cookies, and terms. Guillermo Marquez provides independent guidance and is not a travel agency, does not manage reservations or payments, and is not the official Travorium website.
+
+Contact email: guillermomp.info@gmail.com
+
+Sitemap: https://guillermotravel.com/sitemap.xml

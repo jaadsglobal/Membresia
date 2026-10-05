@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.guillermotravel.com"
+        }
+      ],
+      "destination": "https://guillermotravel.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/cookies.html",
       "destination": "/cookies",
       "permanent": true
