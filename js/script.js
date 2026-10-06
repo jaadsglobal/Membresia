@@ -182,6 +182,8 @@ const animateCounter = (element) => {
   const duration = 1500;
   const start = performance.now();
 
+  element.textContent = formatCounter(0, element);
+
   const tick = (now) => {
     const progress = Math.min((now - start) / duration, 1);
     const eased = 1 - Math.pow(1 - progress, 3);
@@ -208,7 +210,9 @@ const counterObserver = new IntersectionObserver((entries, observer) => {
   });
 }, { threshold: 0.35 });
 
-counters.forEach((counter) => counterObserver.observe(counter));
+counters.forEach((counter) => {
+  counterObserver.observe(counter);
+});
 
 const updateCheckoutTotal = () => {
   if (!associationToggle || !checkoutTotal) {
