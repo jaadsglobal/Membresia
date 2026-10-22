@@ -1945,6 +1945,17 @@ button {
   background: var(--color-champagne);
 }
 
+/* Keep the agent portrait legible despite the widget's injected styles. */
+body #ab-widget-btn img {
+  width: 52px;
+  height: 52px;
+}
+
+body #ab-widget-header-avatar {
+  width: 44px;
+  height: 44px;
+}
+
 .whatsapp-float,
 .back-to-top {
   position: fixed;
