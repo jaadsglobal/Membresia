@@ -1956,6 +1956,42 @@ body #ab-widget-header-avatar {
   height: 44px;
 }
 
+body #ab-widget-messages .ab-msg.assistant a {
+  color: #70B7FF;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+body #ab-widget-messages .ab-msg.assistant a:hover,
+body #ab-widget-messages .ab-msg.assistant a:focus-visible {
+  color: #ACD6FF;
+}
+
+body #ab-widget-messages .ab-msg.assistant a.agent-link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin: 6px 0;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #70B7FF;
+  color: #07111F;
+  font-weight: 700;
+  text-decoration: none;
+  word-break: normal;
+}
+
+body #ab-widget-messages .ab-msg.assistant a.agent-link-button:hover,
+body #ab-widget-messages .ab-msg.assistant a.agent-link-button:focus-visible {
+  background: #ACD6FF;
+}
+
+body #ab-widget-messages .ab-msg.assistant a.agent-link-button:focus-visible {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 3px;
+}
+
 .whatsapp-float,
 .back-to-top {
   position: fixed;
