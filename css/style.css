@@ -2841,11 +2841,132 @@ body #ab-widget-messages .ab-msg.assistant a.agent-link-button:focus-visible {
   height: 82px;
 }
 
-/* === HERO CARD DESKTOP ALIGNMENT === */
+/* Compact introduction, kept in the hero's normal layout flow. */
+.travel-intro {
+  position: relative;
+  z-index: 2;
+  width: min(380px, 100%);
+  min-width: 0;
+  margin: 32px auto 0;
+  padding: 30px;
+  border: 1px solid rgba(216, 182, 106, 0.4);
+  border-radius: 22px;
+  color: var(--color-white);
+  background:
+    radial-gradient(ellipse at top right, rgba(216, 182, 106, 0.12), transparent 70%),
+    linear-gradient(140deg, #101e29, #0a1119);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.travel-intro::before {
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(216, 182, 106, 0.12);
+  border-radius: 15px;
+  pointer-events: none;
+  content: "";
+}
+
+.travel-intro-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.travel-intro-caption {
+  margin: 0 0 9px;
+  color: rgba(244, 240, 232, 0.63);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.travel-intro-brand {
+  margin: 0;
+  color: var(--color-gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.travel-intro-globe {
+  display: grid;
+  flex: 0 0 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid rgba(216, 182, 106, 0.28);
+  border-radius: 50%;
+  background: rgba(216, 182, 106, 0.05);
+  color: var(--color-gold);
+  font-size: 1.15rem;
+}
+
+.travel-intro h2 {
+  margin: 0 0 12px;
+  color: var(--color-white);
+  font-size: clamp(1.3rem, 2vw, 1.65rem);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.25;
+}
+
+.travel-intro-club {
+  margin: 0;
+  color: rgba(244, 240, 232, 0.75);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.travel-intro-signature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 26px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(216, 182, 106, 0.2);
+  color: rgba(244, 240, 232, 0.55);
+  font-size: 0.65rem;
+}
+
+.travel-intro-signature span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-gold);
+}
+
 @media (min-width: 1041px) {
-  .hero-card {
-    top: 38%;
-    transform: translateY(-50%);
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 360px);
+    gap: clamp(32px, 5vw, 72px);
+    padding-inline: max(24px, calc((100% - 1180px) / 2));
+  }
+
+  .hero-content {
+    width: min(680px, 100%);
+    min-width: 0;
+    margin: 0;
+  }
+
+  .travel-intro {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .travel-intro {
+    padding: 26px 22px;
+  }
+
+  .travel-intro-top {
+    gap: 10px;
   }
 }
 

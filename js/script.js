@@ -220,9 +220,9 @@ const updateCheckoutTotal = () => {
   }
 
   const hasAssociation = associationToggle.checked;
-  checkoutTotal.textContent = hasAssociation ? "$369.90" : "$269.95";
+  checkoutTotal.textContent = hasAssociation ? "$399.90" : "$269.95";
   if (checkoutAddonLabel) {
-    checkoutAddonLabel.textContent = hasAssociation ? "+ Asociación $99.95/año" : "Añadir asociación $99.95/año";
+    checkoutAddonLabel.textContent = hasAssociation ? "+ Asociación $129.95/año" : "Añadir asociación $129.95/año";
   }
   checkoutAddon?.classList.toggle("is-off", !associationToggle.checked);
   checkoutAddonButton?.classList.toggle("is-off", !hasAssociation);

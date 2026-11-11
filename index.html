@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"></noscript>
-  <link rel="stylesheet" href="css/style.css?v=20261023-widget-mobile-gold">
+  <link rel="stylesheet" href="css/style.css?v=20261111-intro-card">
 
   <script type="application/ld+json">
   {
@@ -49,7 +49,6 @@
     <nav class="navbar" aria-label="Navegación principal">
       <a class="logo" href="/" aria-label="Guillermo Márquez">
         <img class="logo-wordmark" src="assets/logo-guillermo-marquez.png?v=20260914" width="2007" height="783" alt="Guillermo Márquez">
-        <span class="logo-descriptor">Club Privado de Viajes</span>
       </a>
 
       <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false">
@@ -88,22 +87,17 @@
         </div>
       </div>
 
-      <aside class="hero-card membership-card" aria-label="Tarjeta de membresía de viajes" data-aos="fade-left" data-aos-delay="200">
-        <div class="membership-card-top">
-          <span>Membresía Travorium</span>
-          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+      <aside class="travel-intro" aria-label="Guillermo Márquez, Club Privado de Viajes">
+        <div class="travel-intro-top">
+          <div>
+            <p class="travel-intro-caption">Tu próximo destino empieza aquí</p>
+            <p class="travel-intro-brand">Membresía Travorium</p>
+          </div>
+          <span class="travel-intro-globe" aria-hidden="true"><i class="fa-solid fa-globe"></i></span>
         </div>
         <h2>Guillermo Márquez</h2>
-        <p class="membership-card-subtitle">Club Privado de Viajes</p>
-        <p class="membership-card-access">Acceso de miembro</p>
-        <ul>
-          <li><i class="fa-solid fa-check"></i> Hoteles</li>
-          <li><i class="fa-solid fa-check"></i> Experiencias</li>
-          <li><i class="fa-solid fa-check"></i> Beneficios de miembro</li>
-          <li><i class="fa-solid fa-check"></i> Asesoramiento personal</li>
-        </ul>
+        <div class="travel-intro-signature"><span></span> Asesor independiente</div>
       </aside>
-
     </section>
 
     <!-- TRANSPARENCIA DE PAGO -->
@@ -388,7 +382,7 @@
               <li><i class="fa-solid fa-check"></i> Todo en Plata</li>
               <li><i class="fa-solid fa-check"></i> Acceso a giras mundiales</li>
               <li><i class="fa-solid fa-check"></i> Escapadas a resorts</li>
-              <li class="highlight"><i class="fa-solid fa-check"></i> 150 puntos al mes</li>
+              <li class="highlight"><i class="fa-solid fa-coins" aria-hidden="true"></i> 150 puntos al mes</li>
               <li class="muted"><i class="fa-solid fa-minus"></i> Sin reducción de tasas</li>
             </ul>
             <div class="plan-price">
@@ -406,7 +400,7 @@
             <ul>
               <li><i class="fa-solid fa-check"></i> Todo en Titanio</li>
               <li><i class="fa-solid fa-check"></i> Compra a la tasa más baja</li>
-              <li class="highlight"><i class="fa-solid fa-check"></i> 270 puntos al mes</li>
+              <li class="highlight"><i class="fa-solid fa-coins" aria-hidden="true"></i> 270 puntos al mes</li>
               <li class="highlight"><i class="fa-solid fa-check"></i> Estancias en resorts desde $1/noche</li>
             </ul>
             <div class="plan-price">
@@ -424,13 +418,11 @@
             <span class="addon-copy">
               <span class="addon-title">
                 <strong>Agregar programa de asociación</strong>
-                <small>Ahorra $30</small>
               </span>
               <em>Para quienes quieren recomendar la membresía y optar a comisiones. Pago semanal. <a href="#recomendaciones">Más información</a></em>
             </span>
             <span class="addon-price">
-              <del>$129.95</del>
-              <strong>$99.95</strong>
+              <strong>$129.95</strong>
               <span>/año</span>
             </span>
             <input id="associationToggle" type="checkbox" checked aria-label="Agregar programa de asociación">
@@ -444,11 +436,11 @@
             </div>
             <button class="checkout-pill" id="checkoutAddonButton" type="button" aria-pressed="true" aria-label="Quitar asociación opcional">
               <i class="fa-solid fa-square-check" id="checkoutAddonIcon" aria-hidden="true"></i>
-              <span id="checkoutAddonLabel">+ Asociación $99.95/año</span>
+              <span id="checkoutAddonLabel">+ Asociación $129.95/año</span>
             </button>
             <div class="checkout-total">
               <span>Total hoy</span>
-              <strong id="checkoutTotal">$369.90</strong>
+              <strong id="checkoutTotal">$399.90</strong>
             </div>
             <a class="btn btn-gold" href="#registro">Solicitar acceso</a>
           </div>
@@ -660,7 +652,7 @@
   </div>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="js/script.js?v=20261006-content-clarity"></script>
+  <script src="js/script.js?v=20261111-association-price"></script>
   <!-- Widget de CreatuAgente -->
   <script src="https://api.creatuagente.io/widget/cmvi15whs00k50bs67o1mfscj/widget-profile.js"></script>
   <script src="js/widget-links.js?v=20261022-widget-buttons"></script>
